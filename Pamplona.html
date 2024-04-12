@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <style type="text/css" media="all">
+    body{
+      background: lightblue;
+    }
+    .Box{
+      position: absolute;
+      background: white;
+      height: 150px;
+      width: 200px;
+      border: 2px solid gray;
+      border-radius: 20px;
+      padding: 20px;
+      top: 230px;
+      left: 60px;
+    }
+    #img1{
+      width: 90px;
+      height: 90px;
+      border: 2px solid black;
+      border-radius: 100px;
+      position: absolute;
+      top: 35px;
+      left: 75px;
+    }
+    h4{
+      position: absolute;
+      top: 115px;
+      left: 65px;
+    }
+    a{
+      position: absolute;
+      top: 160px;
+      left: 85px;
+      outline: none;
+      color: green;
+      animation-name: col;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes col{
+      0%{
+        color: rgb(232,62,62);
+      }
+      50%{
+        color: rgb(62,232,175);
+      }
+      100%{
+        color: rgb(185,232,62);
+      }
+    }
+  </style>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title></title>
+</head>
+<body>
+  <form class="Box">
+    <img src="img1.jpg" id="img1"/>
+    <h4>John Pamplona</h4>
+    <a href="https://www.facebook.com/john.pamplona.121?mibextid=ZbWKwL">Facebook</a>
+  </form>
+</body>
+</html>
